@@ -111,7 +111,7 @@ main {
     margin-bottom: 10px;
 }
 
-p {
+p {  /*Formatação principal dos textos*/
         font-family: var(--fonte-padrao);
         margin: 15px 0px;
         text-align: justify;
@@ -174,10 +174,14 @@ a {
     text-decoration: none;
 }
 
-div.container {
+div.video-container {
     max-width: 1100%;
-    margin: 40 auto;
+    margin: auto;
     width: 100%;
+}
+
+.principal {
+    padding-top: 20px;
 }
 
 a:hover {
