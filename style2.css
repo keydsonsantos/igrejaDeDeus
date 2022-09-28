@@ -77,14 +77,17 @@ header > p.rodape {
     margin: auto;
 }
 
-nav {
+.nav-container {
+    display: flex;
+    justify-content: flex-start;
+    
     padding-bottom: 10px;
     margin: 0px;
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.432);
     background-color: var(--cor1);
 }
 
-nav > a {
+.nav-container > a {
     color: var(--cor4);
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -175,6 +178,9 @@ a {
 }
 
 div.video-container {
+    background-color: var(--cor1);
+    border-radius: 5px;
+    padding: 20px 0px;
     max-width: 1100%;
     margin: auto;
     width: 100%;
