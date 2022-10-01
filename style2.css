@@ -22,7 +22,19 @@ body {
 
 picture {
     display: flex;
-    justify-content: center;    
+    justify-content: center;   
+}
+
+.imgpag-container { /*imagens das paginas*/
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.imgpag-container > img {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
 }
 
 header {
