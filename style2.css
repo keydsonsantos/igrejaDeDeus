@@ -12,8 +12,8 @@
     --cor4: #FFFFFF;
     --cor5: #FFB30D;
 
-    --fonte-padrao: Georgia, Arial, Helvetica, Tahoma, verdana, Trebuchet, sans-serif;
-    --fonte-destaque: verdana ,'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, 'Times New Roman';
+    --fonte-padrao: verdana, Arial, Helvetica, Tahoma, verdana, Trebuchet, sans-serif;
+    --fonte-destaque: Georgia ,'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, 'Times New Roman';
 }
 
 body {
