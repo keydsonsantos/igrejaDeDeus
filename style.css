@@ -212,9 +212,7 @@ a.home:hover {
     float: left;
     min-width: 240px;
     max-width: 862px;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 10px 15px;
 }
 
 table {

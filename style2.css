@@ -147,8 +147,12 @@ h1.titaula {
 
 .biblia {
     background-color: #f5e6c6;
+    padding: 6px;
+    border: 1px solid var(--cor1);
+    border-radius: 5px;
     font-family: var(--fonte-padrao);
     font-weight: bold;
+    font-style: oblique;
 }
 
 .titulo-discp {
@@ -231,6 +235,39 @@ a.externo::after {
 
 table {
     margin: auto;
+}
+
+.table-container {
+    justify-content: center;
+}
+
+.table-container > table { /*tabela cap 20*/
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+#leiD {
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    background-color: var(--cor5);
+}
+
+#leiM {
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    color: var(--cor4);
+    background-color: var(--cor2);
+}
+
+#lei1 {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor5);
+}
+
+#lei2 {
+    font-family: var(--fonte-padrao);
+    color: var(--cor4);
+    background-color: var(--cor2);
 }
 
 td {
