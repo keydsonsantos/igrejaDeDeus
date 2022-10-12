@@ -27,7 +27,7 @@ picture {
 
 a {
     color: var(--cor1);
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padrao);
     font-weight: bolder;
     text-decoration: none;
 }
