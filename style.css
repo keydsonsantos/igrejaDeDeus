@@ -103,12 +103,15 @@ header > p.rodape {
 
 .nav-container {
     display: flex;
+    position: sticky;
+    top: 0px;
     justify-content: flex-start;
     align-items: flex-start;
     padding-bottom: 10px;
     margin: 0px;
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.432);
     background-color: var(--cor1);
+    z-index: 1;
 }
 
 .nav-container > a {
