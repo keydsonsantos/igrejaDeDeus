@@ -59,7 +59,7 @@ a.externo::after {
 .video-container {
     display: flex;
     position: sticky;
-    top: 79px;
+    top: 78px;
     padding: 5px;
     justify-content: center;
     align-items: center;
