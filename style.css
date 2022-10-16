@@ -60,9 +60,10 @@ a.externo::after {
     display: flex;
     position: sticky;
     top: 79px;
+    padding: 5px;
     justify-content: center;
     align-items: center;
-    
+    background-color: var(--cor1);
 }
 
 .audio-container {
