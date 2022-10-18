@@ -58,6 +58,7 @@ a.externo::after {
 
 .video-container {
     display: flex;
+    position: -webkit-sticky;
     position: sticky;
     top: 78px;
     padding: 5px;
@@ -67,6 +68,7 @@ a.externo::after {
 }
 
 .audio-container {
+    position: -webkit-sticky;
     position: sticky;
     top: 39px;
     width: 100%;
@@ -126,6 +128,7 @@ header > p.rodape {
 
 .nav-container {
     display: flex;
+    position: -webkit-sticky;
     position: sticky;
     top: 0px;
     justify-content: flex-start;
