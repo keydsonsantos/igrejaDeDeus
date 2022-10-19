@@ -113,8 +113,16 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {
+ul.topnav li a:link {
+    background-color: var(--cor4);
+}
+
+ul.topnav li a:visited {
     background-color: var(--cor3);
+}
+
+ul.topnav li a:hover {
+    background-color: var(--cor2);
 }
 
 ul.topnav li a.active {
