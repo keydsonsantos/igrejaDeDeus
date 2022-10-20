@@ -83,6 +83,7 @@ a.externo::after {
 
 ul.topnav {
     font-family: var(--fonte-padrao);
+    font-weight: bold;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -110,10 +111,6 @@ ul.topnav li a:link {
     background-color: var(--cor1);
 }
 
-/*ul.topnav li a:visited {
-    background-color: var(--cor5);
-}*/
-
 ul.topnav li a:hover {
     background-color: var(--cor2);
 }
@@ -139,10 +136,6 @@ ul.topnav li.right {
     ul.topnav li a:link {
         background-color: var(--cor1);
     }
-    
-    /*ul.topnav li a:visited {
-        background-color: var(--cor5);
-    }*/
     
     ul.topnav li a:hover {
         background-color: var(--cor2);
@@ -202,7 +195,7 @@ header > h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 2.5em;
-    text-shadow: 2px 2px 0px white;
+    text-shadow: 2px 2px 0px var(--cor5);
     min-width: 240px;
     max-width: 862px;
     padding-top: 40px;
