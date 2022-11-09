@@ -32,6 +32,13 @@ article a {
     text-decoration: none;
 }
 
+main a {
+    color: var(--cor1);
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 article a:hover {
     color: var(--cor4);
     background-color: var(--cor5);
