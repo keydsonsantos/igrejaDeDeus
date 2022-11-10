@@ -60,7 +60,7 @@ a.externo::after {
     display: flex;
     position: -webkit-sticky;
     position: sticky;
-    top: 78px;
+    top:78px;
     padding: 5px;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ a.externo::after {
 .audio-container {
     position: -webkit-sticky;
     position: sticky;
-    top: 39px;
+    top: 38px;
     width: 100%;
     height: 40px;
     margin-bottom: 10px;
@@ -81,102 +81,65 @@ a.externo::after {
     height: 40px;
 }
 
-ul.topnav {
+.nav {
     font-family: var(--fonte-padrao);
-    font-weight: bold;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    background-color: var(--cor1);
+    display: flex;
     position: sticky;
     top: 0;
-    overflow: hidden;
-    background-color: var(--cor1);
     z-index: 1;
 }
 
-ul.topnav li {
-    float: left;
-}
-
-ul.topnav li a {
-    display: block;
-    color: white;
-    font-family: var(--fonte-padrao);
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
-}
-
-ul.topnav li a:link {
+.dropbtn {
     background-color: var(--cor1);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
 
-ul.topnav li a:hover {
-    background-color: var(--cor2);
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-ul.topnav li a:active {
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 2);
+    padding: 12px 16px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    overflow: auto;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 4px;
+}
+
+.dropdown-content a:active {
     background-color: var(--cor5);
+    border-radius: 4px;
 }
 
-ul.topnav li.right {
-    float: right;
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 4px;
 }
 
-@media screen and (max-width: 470px) {
-    ul.topnav li.right,
-    ul.topnav li {
-        float: none;
-    }
-
-    ul.topnav {
-        z-index: 1;
-    }
-
-    ul.topnav li a:link {
-        background-color: var(--cor1);
-    }
-    
-    ul.topnav li a:hover {
-        background-color: var(--cor2);
-    }
-    
-    ul.topnav li a:active {
-        background-color: var(--cor5);
-    }
-
-    ul.topnav li a {
-        font-family: var(--fonte-padrao);
-        padding: 5px 12px;
-        font-size: 0.9em;
-        z-index: 1;
-    }
-
-    .video-container {
-        display: flex;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 120px;
-        padding: 5px;
-        justify-content: center;
-        align-items: center;
-        background-color: var(--cor1);
-    }
-    
-    .audio-container {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 80px;
-        max-width: 100%;
-        height: 40px;
-        margin-bottom: 10px;
-        background-color: rgb(241, 242, 241);
-    }
-    
-    .audio-container > audio {
-        height: 40px;
-    }
-    
+.dropdown:hover .dropbtn {
+    background-color: var(--cor2);
 }
 
 main p {
