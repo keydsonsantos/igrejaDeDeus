@@ -119,6 +119,7 @@ div > .video {
 }
 
 .dropbtn {
+    text-decoration: none;
     background-color: var(--cor1);
     color: white;
     padding: 10px;
@@ -146,7 +147,7 @@ div > .video {
 
 .dropdown-content a {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     padding: 5px 8px;
     text-decoration: none;

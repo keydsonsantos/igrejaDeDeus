@@ -91,6 +91,7 @@ a.externo::after {
 }
 
 .dropbtn {
+    text-decoration: none;
     background-color: var(--cor1);
     color: white;
     padding: 10px;
