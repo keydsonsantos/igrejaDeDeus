@@ -248,6 +248,17 @@ h1.titaula {
     font-style: oblique;
 }
 
+.noti {
+    color: var(--cor1);
+    background-color: #b4b4b4;
+    padding: 6px;
+    border: 1px solid var(--cor1);
+    border-radius: 5px;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    font-style: oblique;
+}
+
 .titulo-discp {
     font-family: var(--fonte-destaque);
     text-align: center;
