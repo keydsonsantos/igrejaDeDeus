@@ -140,7 +140,7 @@ a.externo::after {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: var(--cor2);
+    background-color: var(--cor3);
 }
 
 main p {
@@ -242,9 +242,20 @@ article.discp {
 
 .titulo-home {
     font-family: var(--fonte-destaque);
-    background-image: linear-gradient(to right, var(--cor1), var(--cor4));
+    background-image: linear-gradient(to right, var(--cor1), var(--cor1));
     color: var(--cor5);
     margin-top: 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.titulo-nt {
+    font-family: var(--fonte-destaque);
+    background-image: linear-gradient(to right, var(--cor1), var(--cor1));
+    color: var(--cor4);
+    margin-top: 30px;
+    padding: 10px;
     font-size: 1.1em;
     font-weight: bold;
     border-radius: 5px;
@@ -304,12 +315,6 @@ td {
     content: '\00A0\1F517';
 }
 
-aside.site {
-    color: var(--cor4);
-    border: 2px solid var(--cor4);
-    box-shadow: 1px 2px 2px 3px var(--cor3);
-}
-
 aside {
     background-color: var(--cor4);
     padding: 20px 20px;
@@ -317,6 +322,27 @@ aside {
     padding-bottom: 10px;
     max-width: 862px;
     margin: auto;
+}
+
+aside p {
+    text-align: center;
+}
+
+aside a {
+    color: var(--cor4);
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: var(--cor4);
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
 }
 
 aside > h3 {
