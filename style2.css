@@ -194,7 +194,7 @@ header > p {
     max-width: 600px;
     text-shadow: 1px 1px 0px black;
     margin-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 20px;
     margin: auto;
 }
 
@@ -225,6 +225,10 @@ p {  /*Formatação principal dos textos*/
         text-align: justify;
         text-indent: 20px;
         line-height: 1.6em;
+}
+
+.titulo-discp img {
+    height: 20px;
 }
 
 h1 {
