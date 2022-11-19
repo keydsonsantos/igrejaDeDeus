@@ -227,10 +227,6 @@ p {  /*Formatação principal dos textos*/
         line-height: 1.6em;
 }
 
-.titulo-discp img {
-    height: 20px;
-}
-
 h1 {
     font-family: var(--fonte-destaque);
     text-align: center;
@@ -269,7 +265,7 @@ h1.titaula {
     background-image: linear-gradient(to right, var(--cor1), var(--cor1));
     color: var(--cor5);
     margin-top: 30px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
     border-radius: 5px;
     padding: 10px;
