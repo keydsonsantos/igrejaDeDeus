@@ -162,20 +162,20 @@ header > h1 {
     text-shadow: 2px 2px 0px var(--cor5);
     min-width: 240px;
     max-width: 862px;
-    padding-top: 40px;
+    padding-top: 5px;
     margin: auto;
 }
 
 header > p {
     font-family: var(--fonte-padrao);
-    font-size: 0.4cm;
+    font-size: 0.5cm;
     color: white;
     font-weight: bold;
     text-align: center;
     max-width: 600px;
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 2px 1px 1px black;
     margin-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 20px;
     margin: auto;
 }
 
@@ -183,7 +183,8 @@ header > p.rodape {
     font-family: var(--fonte-padrao);
     font-size: 1em;
     color: white;
-    padding-bottom: 5px;
+    padding-top: 0;
+    padding-bottom: 20px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.555);
     margin: auto;
 }
