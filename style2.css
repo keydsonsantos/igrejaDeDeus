@@ -82,7 +82,9 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 78px;
-    padding: 5px;
+    padding: 8px 5px;
+    margin: 0 -6px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     background-color: var(--cor1);
@@ -172,6 +174,33 @@ div > .video {
 
 .dropdown:hover .dropbtn {
     background-color: var(--cor3);
+}
+
+figcaption ul p {
+    margin: 10px 0;
+    list-style: none; 
+}
+
+figcaption li {
+    display: inline;
+}
+
+figcaption a {
+    text-align: center;
+    background-color: var(--cor3);
+    font-size: 14px;
+    color: var(--cor4);
+    padding: 5px;
+    border-radius: 4px;
+    margin: 0 5px;
+    text-decoration: none;
+    max-width: 100%;
+    overflow: auto;
+}
+
+#video_player video { 
+    max-width: 100%;
+    
 }
 
 header > h1 {
