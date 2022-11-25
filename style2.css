@@ -79,14 +79,14 @@ header {
 
 .video-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: -webkit-sticky;
     position: sticky;
     top: 78px;
-    padding: 8px 5px;
+    padding: 6px 5px;
     margin: 0 -6px;
     width: 100%;
-    justify-content: center;
-    align-items: center;
     background-color: var(--cor1);
 }
 
