@@ -52,6 +52,7 @@ article a:hover {
     min-width: 300px;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
 }
 
@@ -254,6 +255,15 @@ p {  /*Formatação principal dos textos*/
         text-align: justify;
         text-indent: 20px;
         line-height: 1.6em;
+}
+
+h3 {
+    font-family: var(--fonte-padrao);
+    font-size: 19px;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.6em;
 }
 
 h1 {
