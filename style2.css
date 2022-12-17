@@ -280,8 +280,9 @@ h1.titaula {
 .biblia {
     background-color: #f5e6c6;
     padding: 6px;
-    border: 1px solid var(--cor1);
+    border: 1px var(--cor1);
     border-radius: 5px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
     font-family: var(--fonte-padrao);
     font-weight: bold;
     font-style: oblique;
@@ -291,8 +292,9 @@ h1.titaula {
     color: var(--cor1);
     background-color: #b4b4b4;
     padding: 6px;
-    border: 1px solid var(--cor1);
+    border: 1px var(--cor1);
     border-radius: 5px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
     font-family: var(--fonte-padrao);
     font-weight: bold;
     font-style: oblique;
