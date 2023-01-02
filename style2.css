@@ -257,6 +257,12 @@ p {  /*Formatação principal dos textos*/
         line-height: 1.6em;
 }
 
+main .intro { /*Formatação do texto da pagina inicial*/
+    box-shadow: 4px 4px 8px var(--cor3);
+    padding: 6px;
+    border-radius: 4px;
+}
+
 h3 {
     font-family: var(--fonte-padrao);
     font-size: 19px;
