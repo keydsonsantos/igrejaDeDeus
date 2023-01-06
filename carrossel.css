@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carrosel {
+    width: 700px;
+    height: 506px;
+    outline: 3px solid black;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+    background-color: black;
+    border-radius: 5px;
+}
+
+.carrosel ul{
+    display: flex;
+    list-style: none;
+    width: 2100px;
+    height: 506px;
+    
+}
+
+.carrosel li {
+    position: relative;
+    animation: slide 15s infinite ease-out;
+}
+
+.carrosel img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slide {
+    0%{left: 0px;}
+
+    15%{left: 0px;}
+
+    30%{left: -700px;}
+
+    45%{left: -700px;}
+
+    60%{left: -1400px}
+
+    75%{left: -1400px}
+
+    100%{left: 0px;}
+}
+
+@media screen and (max-width: 600px) {
+    .carrosel {
+        width: 500px;
+        height: 306px;
+        outline: 3px solid black;
+        overflow: hidden;
+        margin: 50px auto;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+        background-color: black;
+    }
+    
+    .carrosel ul{
+        display: flex;
+        list-style: none;
+        width: 1500px;
+        height: 306px;  
+    }
+
+    @keyframes slide {
+        0%{left: 0px;}
+    
+        15%{left: 0px;}
+    
+        30%{left: -500px;}
+    
+        45%{left: -500px;}
+    
+        60%{left: -1000px}
+    
+        75%{left: -1000px}
+    
+        100%{left: 0px;}
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .carrosel {
+        width: 300px;
+        height: 200px;
+        outline: 3px solid black;
+        overflow: hidden;
+        margin: 50px auto;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+        background-color: black;
+    }
+    
+    .carrosel ul{
+        display: flex;
+        list-style: none;
+        width: 900px;
+        height: 200px; 
+    }
+
+    @keyframes slide {
+        0%{left: 0px;}
+    
+        15%{left: 0px;}
+    
+        30%{left: -300px;}
+    
+        45%{left: -300px;}
+    
+        60%{left: -600px}
+    
+        75%{left: -600px}
+    
+        100%{left: 0px;}
+    }
+}
