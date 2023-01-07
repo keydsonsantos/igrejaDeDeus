@@ -98,7 +98,7 @@
 
 @media screen and (max-width: 550px) {
     .carrosel {
-        width: 280px;
+        width: 94%;
         height: 160px;
         overflow: hidden;
         margin: auto;
