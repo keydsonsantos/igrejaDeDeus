@@ -112,6 +112,12 @@ div > .video {
     border-radius: 5px;
 }
 
+.etern {
+    background-color: var(--cor5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .nav {
     font-family: var(--fonte-padrao);
     background-color: var(--cor1);
